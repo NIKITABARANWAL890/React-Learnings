@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            width: 100vw;
+            text-align: center;
+        }
+        .container{
+            padding: 1rem;
+            width: 500px;
+            margin: auto;
+            align-items: center;
+        }
+        .score-btns{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+
+            div{
+                text-align: center;
+                padding: 0.8rem;
+                width: 21rem;
+                border: 1px solid black;
+            }
+        }
+        span{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+
+
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>  
+    <script type="text/babel" src="script.js"></script>  
+</body>
+</html>
